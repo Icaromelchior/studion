@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,14 +6,27 @@
 :root{ 
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    --color-copy:#333;
     --color-primary: #ffc500;
     --defaut-padding: 1rem;
+    color: var(--color-copy);
     
 }
 
 body {
     margin: 0;
     padding-top: 7.75rem;
+}
+
+header,
+main,
+footer {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 ul{
@@ -25,16 +38,21 @@ ul{
 .navbar {
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar__container {
     display: grid;
     grid-template-columns: 1fr 9fr;
     align-items: center;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 7.75rem;
     padding: 0 1rem;
-    background-color: #000;
-    color: #fff;
+  
 }
 
 .navbar__links {
@@ -83,7 +101,7 @@ ul{
 
 .slide {
     position: relative;
-    height: calc(100vh - 7.75rem);
+    height: calc(90vh - 7.75rem);
 }
 
 .slide__backgroud-image {
@@ -136,5 +154,80 @@ ul{
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
+}
+
+#conter {
+    background-color: var(--color-primary);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.counter__conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) ;
+    place-items: center;
+    padding: 4.375rem 1rem;
+}
+
+.counter__conteiner h3 {
+    font-size: 2.1875rem;
+    font-weight: 900;
+}
+
+.counter__conteiner h3 small {
+    display: block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.institutional {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem;
+}
+
+.institutional__image {
+    max-width: 575px;
+}
+
+.institutional__copy {
+    padding: 0 1.8125rem;
+}
+
+.institutional__copy h6 {
+    font-size: 0.875rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.institutional__copy h4 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.institutional__copy p {
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    margin-bottom: 0;
+    margin-bottom: 2.5rem;
+}
+
+.btn--institutional {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn--institutional:hover{
+    border-color: var(--color-primary);
+    background-color: unset;
+    color: var(--color-copy);
+    box-shadow: 0 1rem 1rem #0006;
+
 }
 

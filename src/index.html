@@ -11,37 +11,38 @@
 
 <body>
     <nav class="navbar">
+        <div class=" container navbar__container">
 
-        <h1 class="logo--studion">
-            Studi<span class="copy--primary">on</span>
-            <span class="logo--studion__subtitle">Eventos</span>
-        </h1>
+            <h1 class="logo--studion">
+                Studi<span class="copy--primary">on</span>
+                <span class="logo--studion__subtitle">Eventos</span>
+            </h1>
 
-        <ul class="navbar__links">
+            <ul class="navbar__links">
 
-            <li>
-                <a href="#empresa">Empresa</a>
-            </li>
+                <li>
+                    <a href="#empresa">Empresa</a>
+                </li>
 
-            <li>
-                <a href="#eventos">Eventos</a>
-            </li>
+                <li>
+                    <a href="#eventos">Eventos</a>
+                </li>
 
-            <li>
-                <a href="#galeria">Galeria</a>
-            </li>
+                <li>
+                    <a href="#galeria">Galeria</a>
+                </li>
 
-            <li>
-                <a href="#depoimentos">Depoimentos</a>
-            </li>
+                <li>
+                    <a href="#depoimentos">Depoimentos</a>
+                </li>
 
-            <li>
-                <a href="#contatos">Contato</a>
-            </li>
+                <li>
+                    <a href="#contatos">Contato</a>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </nav>
-
     <header>
         <div id="slider">
 
@@ -65,37 +66,37 @@
     </header>
 
     <main>
-        <section id="eventos">
-            <ul>
+        <section id="conter">
+            <ul class="container counter__conteiner">
                 <li>
-                    <h3>+ de 500 </h3>eventos realizados
+                    <h3> + de 500 <small> eventos realizados</small></h3>
                 </li>
                 <li>
-                    <h3>+de 1.000.000 </h3>de ingressos vendidos
+                    <h3> +de 1.000.000 <small> de ingressos vendidos</small></h3>
                 </li>
                 <li>
-                    <h3>+de 300 </h3>empresas atendidas
+                    <h3> +de 300 <small> empresas atendidas</small></h3>
                 </li>
             </ul>
         </section>
+    
+        <section class="container institutional">
+            <img class="institutional__image" src="./images/institutional.jpg"/ alt="studion institutional"> 
+            <div class="institutional__copy">
+                <h6>Fazemos seu evento acontecer</h6>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fuga itaque minima repellendus non qui officiis iure sint provident placeat 
+                    laudantium doloribus, dolorum voluptatem in deleniti, ratione aperiam 
+                    doloremque quos neque.
+
+                </p>
+                <button class="btn btn--institutional">Saiba mais</button>
+            </div>
+        </section>
     </main>
-    <section>
-        <div>
-            <img src="./images/institutional.jpg"/>
-            <h6>Fazemos seu evento acontecer</h6>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Fuga itaque minima repellendus non qui officiis iure sint provident placeat 
-                laudantium doloribus, dolorum voluptatem in deleniti, ratione aperiam 
-                doloremque quos neque.
-
-            </p>
-            <button>Saiba mais</button>
-        </div>
-    </section>
-
-    <section>
+        <section>
         <div>
             <h6>Voce informa a tematica e nos planejamos um evento
                 com tecnologia e 
@@ -105,9 +106,9 @@
 
             <button>Fazer cotação</button>
         </div>
-    </section>
+        </section>
 
-    <footer>
+        <footer>
 
         <h2>Studi<span>on</span><span>Eventos</span></h2>
 
@@ -129,7 +130,7 @@
             <small>Studi<span>on</span> - todos os direitos reservados.</small>
         </p>
 
-    </footer>
+        </footer>
 
 </body>
 
