@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css');
 
 * {
     box-sizing: border-box;
@@ -51,19 +53,16 @@ ul{
     align-items: center;
     width: 100vw;
     height: 7.75rem;
-    padding: 0 1rem;
-  
 }
 
 .navbar__links {
     justify-self: end;
 }
 
-
 .navbar__links li {
     font-size: 0.875rem;
     text-transform: uppercase;
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .navbar__links a {
@@ -86,7 +85,7 @@ ul{
 }
 
 .logo--studion__subtitle {
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 300;
 }
 
@@ -229,5 +228,94 @@ ul{
     color: var(--color-copy);
     box-shadow: 0 1rem 1rem #0006;
 
+}
+
+.quote {
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quote__container {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote__copy {
+    background-color: #fff;
+    padding: 2rem 4.365rem;
+}
+
+.quote__copy h6 {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: 0.1875rem;
+    line-height: 1.4375rem;
+    color: #000;
+    width: 53ch;
+    text-transform: uppercase,;
+    margin: 0;
+}
+
+.quote__copy h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.1875rem;
+    margin: 1.875rem 0;
+}
+
+.quote__copy h2 span {
+    display: block;
+}
+
+.btn--quote {
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+    background: none;
+    
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0;
+}
+
+.footer .logo--studion {
+    justify-self: start;
+    margin: 0;
+}
+
+.footer__form {
+    justify-self: center;
+}
+
+.footer__social {
+    justify-self: end;
+}
+
+.footer .logo--studion__subtitle {
+    display: block;
+    margin-top: 0.6875rem;
+}
+
+.footer__social li {
+    letter-spacing: 1rem;
+}
+
+.footer__social .fab {
+    color: #FFF;
 }
 
