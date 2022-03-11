@@ -1,0 +1,32 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact__info span {
+  display: block;
+}
+
+.contact__info i {
+  color: var(--color-primary);
+}
+
+.contact__info__container,
+.contact__form__container {
+  width: 540px;
+}
+
+.contact__info__container {
+  float: right;
+  padding-right: 7.125rem;
+}
+
+.contact__form__container {
+  padding-left: 7.125rem;
+}
+
+.contact__form {
+  padding-left: 7.125rem;
+  background-color: #000;
+  color: #fff;
+}
