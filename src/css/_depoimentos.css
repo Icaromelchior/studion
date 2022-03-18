@@ -1,0 +1,93 @@
+.depo__copy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  padding: 7rem 1.875rem;
+}
+
+.depo__copy h2 {
+  margin: 0;
+  margin-bottom: 3rem;
+  font-size: 5.25rem;
+  font-weight: 700;
+  line-height: 7.5rem;
+  letter-spacing: -0.1875rem;
+  color: var(--color-primary);
+}
+
+.depo__copy h3 {
+  font-size: 0.9375rem;
+  letter-spacing: 0.1875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.depo__copy p {
+  margin: 0;
+  margin-right: 16px;
+  color: var(--color-copy--alt);
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
+}
+
+.depo__slide {
+  height: 48.0625rem;
+  background-color: var(--color-primary);
+}
+
+.borda:before {
+  content: "";
+  position: absolute;
+  border-left: 100px solid var(--color-primary);
+  border-right: 210px solid var(--color-primary);
+  border-bottom: 150px solid transparent;
+}
+.borda:after {
+  content: "";
+  position: absolute;
+  border-left: 100px solid var(--color-primary);
+  border-bottom: 0px solid var(--color-primary);
+}
+
+.borda {
+  width: 302px;
+  height: 302px;
+  background: transparent url("../images/depo.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 75px;
+}
+
+.depo__container {
+  margin-top: 6.25rem;
+  text-align: center;
+  width: 27.625rem;
+}
+
+.depo__slide h4 {
+  color: #000;
+  font-size: 3.125rem;
+  letter-spacing: -0.125rem;
+  font-weight: 700;
+  padding: 0.625rem;
+}
+
+.copy__slide {
+  font-size: 0.875rem;
+  letter-spacing: 0.1875rem;
+  font-weight: 400;
+  float: right;
+}
+
+.depoimentos {
+  width: 589px;
+  height: 75px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
