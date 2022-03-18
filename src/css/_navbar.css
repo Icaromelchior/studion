@@ -1,40 +1,40 @@
 .navbar {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
 }
 
 .navbar__container {
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    align-items: center;
-    width: 100vw;
-    height: 7.75rem;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+  width: 100vw;
+  height: 7.75rem;
 }
 
 .navbar__links {
-    justify-self: end;
+  justify-self: end;
 }
 
 .navbar__links li {
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    margin-right: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-right: 2.275rem;
 }
 
 .navbar__links a {
-    font-weight: 300;
-    color: #fff;
-    text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar__links a.active {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .navbar__links a:hover {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
