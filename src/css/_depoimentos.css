@@ -27,7 +27,7 @@
 
 .depo__copy p {
   margin: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   color: var(--color-copy--alt);
   font-size: 0.9375rem;
   line-height: 1.875rem;
@@ -59,7 +59,7 @@
   background-size: cover;
   background-position: center center;
   position: relative;
-  top: 75px;
+  top: 72px;
 }
 
 .depo__container {
@@ -74,6 +74,7 @@
   letter-spacing: -0.125rem;
   font-weight: 700;
   padding: 0.625rem;
+  margin: 0;
 }
 
 .copy__slide {
@@ -84,10 +85,41 @@
 }
 
 .depoimentos {
-  width: 589px;
-  height: 75px;
-  font-size: 15px;
-  line-height: 30px;
+  width: 36.8125rem;
+  height: 4.6875rem;
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
   font-weight: 400;
   text-align: center;
+}
+
+.aspas {
+  font-size: 3.125rem;
+  color: #000;
+  margin-left: 9.375rem;
+  margin-top: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.chevron__right,
+.chevron__left {
+  font-size: 3.9375rem;
+  color: #fff;
+  float: right;
+  margin-top: 24.625rem;
+}
+
+.chevron__left {
+  float: left;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  color: #fff;
+  letter-spacing: 1.625rem;
+}
+
+.circle2 {
+  color: #000;
 }

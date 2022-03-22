@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:wght@400;700&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/brands.min.css");
 
 @import "./css/_variables.css";
 @import "./css/_base.css";
@@ -14,3 +14,5 @@
 @import "./css/_home.css";
 @import "./css/_contact.css";
 @import "./css/_depoimentos.css";
+@import "./css/_empresa.css";
+@import "./css/_galeria.css";
