@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Studion</title>
 </head>
@@ -44,7 +45,7 @@
         </div>
     </nav>
     <header>
-        <div id="slider">
+        <div class="slider">
 
             <div class="slide">
 
@@ -54,7 +55,32 @@
 
                     <h6><span class="copy--primary">Proximo evento</span> - dia 25 de setembro as 19H</h6>
                     <h2><span class="copy--primary">Creative</span> Mainds</h2>
-                    <button class="btn btn--slide">Saiba mais</>
+                    <button class="btn btn--slide">Saiba mais</button>
+
+                </div>
+            </div>
+            <div class="slide">
+
+                <img class="slide__backgroud-image" src="./images/banner2.jpg" alt="studion banner" />
+
+                <div class="slide__copy">
+
+                    <h6><span class="copy--primary">Proximo evento</span> - dia 25 de setembro as 19H</h6>
+                    <h2><span class="copy--primary">Fast</span> Forward</h2>
+                    <button class="btn btn--slide">Saiba mais</button>
+
+                </div>
+            </div>
+
+            <div class="slide">
+
+                <img class="slide__backgroud-image" src="./images/banner3.jpg" alt="studion banner" />
+
+                <div class="slide__copy">
+
+                    <h6><span class="copy--primary">Proximo evento</span> - dia 25 de setembro as 19H</h6>
+                    <h2><span class="copy--primary">Show</span> Event</h2>
+                    <button class="btn btn--slide">Saiba mais</button>
 
                 </div>
 
@@ -121,7 +147,7 @@
                 <label class="email">receba news e promoções </label>
                 <fieldset>
                     <input id="email" type="email" placeholder="email">
-                    <button type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+                    <button class="footer__form-button" type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
                 </fieldset>
             </form>
 
@@ -141,7 +167,13 @@
         </div>
 
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="http://ciromattia.github.io/jquery.counterup/jquery.counterup.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
