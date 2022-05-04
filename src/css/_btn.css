@@ -21,6 +21,18 @@
 }
 
 .btn--institutional {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn--institutional {
+    display: unset;
+    margin: unset;
+  }
+}
+
+.btn--institutional {
   background-color: var(--color-primary);
   color: #fff;
 }

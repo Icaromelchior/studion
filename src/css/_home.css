@@ -159,13 +159,19 @@
 }
 
 .institutional__image {
-  max-width: 575px;
+  max-width: 100vws;
 }
 
 /*mobile*/
 
+@media screen and (min-width: 1280px) {
+  .institutional__image {
+    max-width: 550px;
+  }
+}
+
 .institutional__copy {
-  padding: 0 0 1.8125rem 0;
+  padding: 0 1rem 1.8125rem 1rem; /*mobile*/
 }
 
 /*descktop*/
